@@ -28,6 +28,7 @@ export default function TweetBox(props) {
       count = 0;
  }
 
+
 //DISABLING SUBMIT BUTTON CONDITIONALS
  let setDisabled = true;
  if((props.tweetText.length === 0) || (props.tweetText.length > 140))
@@ -40,7 +41,7 @@ export default function TweetBox(props) {
 
   return (
     <div className="tweet-box">
-      <TweetInput value = {props.tweetText} handleOnChange = {handleOnTweetTextChange}/>
+      <TweetInput value = {props.tweetText} handleOnChange = {handleOnTweetTextChange} />
 
       <div className="tweet-box-footer">
         <TweetBoxIcons />

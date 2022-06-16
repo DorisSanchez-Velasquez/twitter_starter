@@ -2,6 +2,7 @@ import * as React from "react"
 import AvatarIcon from "../AvatarIcon/AvatarIcon"
 
 export default function TweetInput(props) {
+
   return (
     <div className="tweet-textarea">
       <AvatarIcon />

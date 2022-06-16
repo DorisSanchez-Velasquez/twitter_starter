@@ -20,7 +20,7 @@ export function CardContent(props) {
   return (
     <div className="card-content">
       <span className="fa-stack add-picture-icon">
-        <i className="fas fa-camera fa-stack-2x">
+         <i className="fas fa-camera fa-stack-2x">
           <i className="fas fa-plus fa-stack-1x"></i>
         </i>
       </span>
